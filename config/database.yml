@@ -22,4 +22,6 @@ test:
 
 production:
   <<: *default
-  database: db/production_instagram
+  database: production_instagram
+  username: user5
+  password: password5
